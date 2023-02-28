@@ -1,0 +1,78 @@
+body {
+    background-image: url('../homepage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Stone {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 89c0px;
+    margin: 40px auto ;
+    background-color:rgba(5, 6, 52, 0.397);
+  }
+  
+  input[type="text"],input[type=date]{
+    width:80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(244, 237, 228);
+    border-radius: 4px;
+}
+  
+  button[type="submit"] {
+    padding: 6 px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button[type="submit"]:hover {
+    background:rgba(24, 24, 83, 0.097);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li button {
+    padding: 5px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #d32f2f;
+  }
+
+  .edit-btn{
+    background-color: #006C9E;
+  }
